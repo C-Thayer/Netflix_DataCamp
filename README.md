@@ -23,7 +23,7 @@ The project uses two CSV files located in the `datasets/` directory:
   - `description`: Content description
   - `genre`: Genre classification
 
-- **color_data.csv**: Supporting data for visualization
+- **color_data.csv**: Additional data file (Note: Colors for visualizations are generated programmatically in the notebook based on genre classifications)
 
 ## Analysis Steps
 
@@ -71,7 +71,14 @@ jupyter notebook notebook.ipynb
 
 ## Key Findings
 
-The analysis explores whether movies are getting shorter on Netflix. The conclusion indicates that while there are observable patterns, the trend is not uniformly consistent across the years analyzed (2011-2020), making it difficult to make a definitive statement about decreasing movie lengths.
+The analysis explores whether movies are getting shorter on Netflix. Key observations include:
+
+- Average movie durations show variation across the 2011-2020 period
+- The data reveals no clear, uniform downward trend in movie lengths
+- Different genres (Children's, Documentaries, Stand-Up) show distinct duration patterns
+- While some years show shorter average durations, the overall pattern is inconsistent
+
+**Conclusion**: The data does not provide sufficient evidence to definitively claim that movies are getting shorter on Netflix during this period.
 
 ## Project Structure
 
